@@ -1,0 +1,224 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 30px 10%;
+   background-color: #333;
+}
+header h1{
+   font-family: 'Bruno Ace SC', cursive;;
+    cursor: pointer;
+    margin-right: auto;
+     color: white;
+     font-size: 42px;
+     padding: 0px 20px;
+    }
+    nav a:link{
+        text-decoration: none;
+    }
+    nav a{
+        
+        display: inline-block;
+        padding: 0px 20px;
+        transition: all 0.3s ease 0s;
+        color: white;
+        font-size: 24px;
+
+    }
+    nav  :hover{
+        text-decoration: none;
+        color: #0088a9;
+
+    }
+   
+
+
+/* Hero Styles */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pi-supply-Nve0Kx3pALQ-unsplash.jpg");
+    background-size:cover;
+    background-position: center;
+  
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #3e8e41;
+}
+
+/* About Section Styles */
+.about {
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content img {
+    width: 40%;
+}
+
+.about-content p {
+    font-size: 26px;
+    width: 50%;
+    color: #333;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 80px 0;
+    background-color: rgb(204, 223, 204)
+    
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service {
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+
+
+.service h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333
+}
+
+.service p {
+    font-size: 18px;
+    color: #333
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 80px 0;
+    
+    
+}
+
+
+.contact-form {
+    max-width:400px;
+ 
+   
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+   
+}
+
+
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #333
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
